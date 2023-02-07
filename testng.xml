@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="login">
+        <classes>
+            <class name="Tests.LoginTest">
+
+        </class>
+        </classes>
+    </test>
+    <test name="negative login">
+        <classes>
+            <class name="NegativeTests.LoginNegativeTest">
+
+            </class>
+        </classes>
+    </test>
+    <test name="log out">
+        <classes>
+            <class name="Tests.logOutTest">
+            </class>
+        </classes>
+    </test>
+    <test name="stay after log out">
+        <classes>
+            <class name="Tests.StayTest">
+            </class>
+        </classes>
+    </test>
+    <test name="move in calnder">
+        <classes>
+            <class name="Tests.MoveInCalnderTest">
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

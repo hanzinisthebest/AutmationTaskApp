@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="negative login(failed)">
+    <classes>
+      <class name="NegativeTests.LoginNegativeTest">
+        <methods>
+          <include name="terminate"/>
+          <include name="loginNegative"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- NegativeTests.LoginNegativeTest -->
+    </classes>
+  </test> <!-- negative login(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
