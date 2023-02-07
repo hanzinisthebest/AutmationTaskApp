@@ -33,6 +33,49 @@
             </class>
         </classes>
     </test>
+    <test name="add task">
+        <classes>
+            <class name="Tests.addTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Xadd task">
+        <classes>
+            <class name="Tests.XAddTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Canceladd task">
+        <classes>
+            <class name="Tests.CancelAddTest">
+            </class>
+        </classes>
+    </test>
+    <test name="delete task">
+        <classes>
+            <class name="Tests.DeleteTest">
+            </class>
+        </classes>
+    </test>
+    <test name="negative collision">
+        <classes>
+            <class name="NegativeTests.NegativeAddCollisionTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="negative comment">
+        <classes>
+            <class name="NegativeTests.NegativeAddCommentTest">
+            </class>
+        </classes>
+    </test>
+    <test name="negative day">
+        <classes>
+            <class name="NegativeTests.NegativeAddDayTest">
+            </class>
+        </classes>
+    </test>
 
 
 </suite>

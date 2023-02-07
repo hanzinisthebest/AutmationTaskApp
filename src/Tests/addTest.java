@@ -10,9 +10,9 @@ public class addTest extends TestLevelTest{
         loginAs("admin","admin");
         new BasePage(driver,wait).goToAddMission();
         AddPage addPage = new AddPage(driver,wait);
-        addPage.chooseMissonRandom();
-        addPage.chooseDayRanndom();
-        addPage.chooseSolderRandom();
+        addPage.chooseMisson(3);
+        addPage.chooseDay(4);
+        addPage.chooseSolderMethod(3);
         addPage.addComment();
         addPage.clickConfirm();
         addPage.validateAddMisson();
