@@ -46,6 +46,9 @@ public class BasePage extends PageObject{
     @FindBy(className = "rbc-event-content")
     private List<WebElement> missions;
 
+    @FindBy(className = "recharts-surface")
+    WebElement rateChart;
+
     public BasePage(WebDriver driver, WebDriverWait wait) {
         super(driver, wait);
     }
@@ -87,6 +90,10 @@ public class BasePage extends PageObject{
 
     public void goTORate(){
         wait.until(ExpectedConditions.elementToBeClickable(rating)).click();
+    }
+
+    public void validateRate(){
+        wait.until(ExpectedConditions.visibilityOf(rateChart));
     }
 
     public void goToAddMission(){

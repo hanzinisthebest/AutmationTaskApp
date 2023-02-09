@@ -76,6 +76,12 @@
             </class>
         </classes>
     </test>
+    <test name="rate test">
+        <classes>
+            <class name="Tests.GradeTest">
+            </class>
+        </classes>
+    </test>
 
 
 </suite>
